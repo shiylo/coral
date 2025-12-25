@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coral Club | Консультант по здоровью</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/log.jpg">
+</head>
+<body>
+  <div class="page-wrapper">
+        <!-- Шапка -->
+        <header class="header">
+            <div class="header__body">
+                <div class="header__logo">
+                    Coral club
+                </div>
+                <div class="burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li><a href="#about" class="header__link">О компании</a></li>
+                        <li><a href="#specialist" class="header__link">Специалист</a></li>
+                        <li><a href="#products" class="header__link">Товары</a></li>
+                        <li><a href="#contacts" class="header__link">Контакты</a></li>
+                        <li>
+                            <a href="#consultation" class="header__link consultation-link">
+                                <i class="fas fa-comments"></i> Консультация
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Главный контент -->
+        <main class="main-content">
+            <!-- Герой-слайдер -->
+            <section id="home" class="hero">
+                <div class="hero-slider">
+                    <div class="slider">
+                        <div class="slide slide--active">
+                            <div class="slide__image">
+                                <img src="https://coralclub.ru/upload/iblock/736/x2rbbzchane0jlwes81c2llyb0dejn2f.webp" alt="Здоровье">
+                            </div>
+                            <div class="slide__content">
+                                <h1 class="slide__title">Здоровье начинается здесь</h1>
+                                <p class="slide__text">Откройте мир натуральных продуктов для вашего благополучия</p>
+                                <a href="#products" class="slide__btn">Смотреть продукты</a>
+                            </div>
+                        </div>
+                        
+                        <div class="slide">
+                            <div class="slide__image">
+                                <img src="https://coralclub.ru/upload/iblock/0fb/w2720qoqtvn5qh0w2nb8ft6l6ye372wl.webp" alt="Натуральные продукты">
+                            </div>
+                            <div class="slide__content">
+                                <h1 class="slide__title">100% натуральные ингредиенты</h1>
+                                <p class="slide__text">Качество, проверенное временем и тысячами клиентов</p>
+                                <a href="#specialist" class="slide__btn">Консультация специалиста</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-controls">
+                        <div class="slider-dots">
+                            <span class="dot dot--active" data-slide="0"></span>
+                            <span class="dot" data-slide="1"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- О компании -->
+            <section id="about" class="section about-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">О компании Coral Club</h2>
+                        <p class="section-subtitle">Более 20 лет заботы о вашем здоровье</p>
+                    </div>
+                    
+                    <div class="about-content">
+                        <div class="about-card">
+                            <div class="about-card__icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h3 class="about-card__title">Международная компания</h3>
+                            <p class="about-card__text">Работаем в 50+ странах мира, объединяя людей, заботящихся о своем здоровье</p>
+                        </div>
+                        
+                        <div class="about-card">
+                            <div class="about-card__icon">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <h3 class="about-card__title">Научный подход</h3>
+                            <p class="about-card__text">Все продукты разработаны с учетом последних научных исследований</p>
+                        </div>
+                        
+                        <div class="about-card">
+                            <div class="about-card__icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3 class="about-card__title">Качество и безопасность</h3>
+                            <p class="about-card__text">Сертифицированная продукция с гарантией качества и эффективности</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Специалист -->
+            <section id="specialist" class="section specialist-section">
+                <div class="container">
+                    <div class="specialist-wrapper">
+                        <div class="specialist-profile">
+                            
+                            <div class="profile-info">
+                                <h2 class="profile-name">Мадина Эльбиева</h2>
+                                <p class="profile-title">Сертифицированный нутрициолог</p>
+                                
+                                <div class="profile-details">
+                                    <div class="detail-item">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <span>Дипломированный специалист</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-award"></i>
+                                        <span>Эксперт по продуктам Coral Club</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <i class="fas fa-hands-helping"></i>
+                                        <span>Индивидуальный подход к каждому клиенту</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="profile-description">
+                                    <p>Я помогаю людям восстановить и сохранить здоровье через правильное питание и индивидуально подобранные добавки.</p>
+                                    <p>Моя цель — не просто продать продукт, а найти оптимальное решение для вашего здоровья.</p>
+                                </div>
+                                
+                                <div class="specialization">
+                                    <h3>Основные направления:</h3>
+                                    <ul class="specialization-list">
+                                        <li><i class="fas fa-check"></i> Коррекция веса и метаболизма</li>
+                                        <li><i class="fas fa-check"></i> Укрепление иммунитета</li>
+                                        <li><i class="fas fa-check"></i> Восстановление энергии</li>
+                                        <li><i class="fas fa-check"></i> Женское здоровье</li>
+                                        <li><i class="fas fa-check"></i> Детокс и очищение</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Консультация -->
+            <section id="consultation" class="section consultation-section">
+                <div class="container">
+                    <div class="consultation-wrapper">
+                        <div class="consultation-info">
+                            <div class="info-header">
+                                
+                                <h2>Бесплатная консультация</h2>
+                            </div>
+                            
+                            <div class="consultation-benefits">
+                                <h3>Что вы получите:</h3>
+                                <ul class="benefits-list">
+                                    <li><i class="fas fa-check-circle"></i> Персональный подбор продуктов</li>
+                                    <li><i class="fas fa-check-circle"></i> Ответы на все вопросы</li>
+                                    <li><i class="fas fa-check-circle"></i> Инструкции по применению</li>
+                                    <li><i class="fas fa-check-circle"></i> Сопровождение на всех этапах</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="consultation-cta">
+                                <p>Заполните форму и получите консультацию прямо в WhatsApp</p>
+                            </div>
+                        </div>
+                        
+                        <div class="consultation-form">
+                            <form id="consultForm">
+                                <div class="form-group">
+                                    <label for="userName">Ваше имя *</label>
+                                    <input type="text" id="userName" placeholder="Как к вам обращаться?" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="userPhone">Номер WhatsApp *</label>
+                                    <input type="tel" id="userPhone" placeholder="+7 (___) ___-__-__" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="userGoal">Ваша цель</label>
+                                    <select id="userGoal">
+                                        <option value="">Выберите цель</option>
+                                        <option value="weight">Коррекция веса</option>
+                                        <option value="energy">Повышение энергии</option>
+                                        <option value="immunity">Укрепление иммунитета</option>
+                                        <option value="detox">Очищение организма</option>
+                                        <option value="other">Другое</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="userMessage">Дополнительно</label>
+                                    <textarea id="userMessage" placeholder="Расскажите о вашей ситуации..."></textarea>
+                                </div>
+                                
+                                <button type="submit" class="submit-btn">
+                                    <i class="fab fa-whatsapp"></i> Получить консультацию
+                                </button>
+                                
+                                <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Продукты -->
+            <section id="products" class="section products-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Популярные продукты</h2>
+                        <p class="section-subtitle">Подобраны специалистом для вашего здоровья</p>
+                    </div>
+                    
+                    <div class="products-grid">
+                        <!-- Магний -->
+                        <div class="product-card">
+                            <div class="product-badge">Для нервной системы</div>
+                            <div class="product-image" data-modal="magnesium">
+                                <img src="img/magniy-no-bg-preview (carve.photos).png" alt="Магний">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Магний</h3>
+                                <p class="product-description">Снижение стресса, улучшение сна</p>
+                                <div class="product-bottom">
+                                    <div class="product-price">1 200 ₽</div>
+                                    <button class="product-btn" data-modal="magnesium">
+                                        <i class="fas fa-shopping-cart"></i> Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- B-LURON -->
+                        <div class="product-card">
+                            <div class="product-badge">Для суставов</div>
+                            <div class="product-image" data-modal="bluron">
+                                <img src="img/b-luron-4-no-bg-preview (carve.photos).png" alt="B-LURON">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">B-LURON</h3>
+                                <p class="product-description">Поддержка подвижности суставов</p>
+                                <div class="product-bottom">
+                                    <div class="product-price">16 000 ₽</div>
+                                    <button class="product-btn" data-modal="bluron">
+                                        <i class="fas fa-shopping-cart"></i> Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Lipostic Fit -->
+                        <div class="product-card">
+                            <div class="product-badge">Для метаболизма</div>
+                            <div class="product-image" data-modal="lipostic">
+                                <img src="img/lipostic fit.png" alt="Lipostic Fit">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Lipostic Fit</h3>
+                                <p class="product-description">Контроль веса и обмена веществ</p>
+                                <div class="product-bottom">
+                                    <div class="product-price">6 600 ₽</div>
+                                    <button class="product-btn" data-modal="lipostic">
+                                        <i class="fas fa-shopping-cart"></i> Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Coral Zinc -->
+                        <div class="product-card">
+                            <div class="product-badge">Для иммунитета</div>
+                            <div class="product-image" data-modal="zinc">
+                                <img src="img/Koral-Cink-25-Korallj-Klub-no-bg-preview (carve.photos).png" alt="Coral Zinc">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Coral Zinc</h3>
+                                <p class="product-description">Поддержка иммунной системы</p>
+                                <div class="product-bottom">
+                                    <div class="product-price">1 500 ₽</div>
+                                    <button class="product-btn" data-modal="zinc">
+                                        <i class="fas fa-shopping-cart"></i> Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Coral-Carnitine -->
+                        <div class="product-card">
+                            <div class="product-badge">Для энергии</div>
+                            <div class="product-image" data-modal="carnitine">
+                                <img src="img/coral-carnitine.png" alt="Coral-Carnitine">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Coral-Carnitine</h3>
+                                <p class="product-description">Энергия и выносливость</p>
+                                <div class="product-bottom">
+                                    <div class="product-price">1 500 ₽</div>
+                                    <button class="product-btn" data-modal="carnitine">
+                                        <i class="fas fa-shopping-cart"></i> Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Coral Detox Plus -->
+                        <div class="product-card">
+                            <div class="product-badge">Детокс</div>
+                            <div class="product-image" data-modal="detox">
+                                <img src="img/Корал Детокс Плюс.png" alt="Coral Detox Plus">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Coral Detox Plus</h3>
+                                <p class="product-description">Очищение организма</p>
+                                <div class="product-bottom">
+                                    <div class="product-price">5 000 ₽</div>
+                                    <button class="product-btn" data-modal="detox">
+                                        <i class="fas fa-shopping-cart"></i> Заказать
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Контакты -->
+            <section id="contacts" class="section contacts-section">
+                <div class="container">
+                    <div class="contacts-wrapper">
+                        <div class="contact-info">
+                            <h2>Контакты</h2>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Телефон: +7 (932) 331-04-73</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>WhatsApp: +7 (932) 331-04-73</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email: elbiev-a@mail.ru</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Пн-Пт: 9:00 - 18:00</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+<!-- Модальное окно для продуктов -->
+<div id="productModal" class="modal">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+        <button class="modal__close">&times;</button>
+        <div class="modal__body">
+            <div class="product-modal">
+                <div class="product-modal__image">
+                    <img id="modalProductImage" src="" alt="">
+                    <div class="product-modal__badge" id="modalProductBadge"></div>
+                </div>
+                <div class="product-modal__info">
+                    <h2 id="modalProductName"></h2>
+                    <div class="product-modal__price" id="modalProductPrice"></div>
+                    
+                    <div class="product-modal__description">
+                        <p id="modalProductDescription"></p>
+                    </div>
+                    
+                    <div class="product-modal__details">
+                        <h3>Подробная информация:</h3>
+                        <div class="product-details" id="modalProductDetails"></div>
+                    </div>
+                    
+                    <form class="product-order-form" id="productOrderForm">
+                        <h3>Быстрый заказ</h3>
+                        
+                        <div class="form-group">
+                            <label for="orderName">Ваше имя *</label>
+                            <input type="text" id="orderName" placeholder="Как к вам обращаться?" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="orderPhone">Номер WhatsApp *</label>
+                            <input type="tel" id="orderPhone" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="productQuantity">Количество:</label>
+                            <div class="quantity-control">
+                                <button type="button" class="quantity-btn minus">-</button>
+                                <input type="number" id="productQuantity" value="1" min="1" max="10">
+                                <button type="button" class="quantity-btn plus">+</button>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <i class="fab fa-whatsapp"></i> Заказать через WhatsApp
+                        </button>
+                        
+                        <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </main>
+
+        <!-- Футер -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>Coral Club</span>
+                    </div>
+                    <p class="footer-text">© 1999-2025 Coral Club International. Все права защищены.</p>
+                    <p class="footer-note">Консультант: Мадина Эльбиева</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
